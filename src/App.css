@@ -2,6 +2,49 @@
   background-color: aquamarine;
 }
 
+/* Стили для навигационного меню */
+nav {
+  background-color: #f8f9fa; /* Светлый фон для меню */
+  padding: 10px 20px;
+  border-radius: 8px; /* Скругленные углы */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Убираем стандартные стили списка */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Горизонтальное выравнивание */
+  gap: 15px; /* Расстояние между элементами */
+}
+
+/* Стили для ссылок */
+nav a {
+  text-decoration: none;
+  color: #333; /* Темный цвет текста */
+  font-size: 16px;
+  padding: 5px 10px; /* Внутренние отступы для кликабельной области */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход эффектов */
+}
+
+/* Ховер эффект */
+nav a:hover {
+  background-color: #e2e6ea; /* Светло-серый фон */
+  border-radius: 5px; /* Скругление фона */
+}
+
+/* Активная ссылка */
+nav a.active {
+  background-color: #007bff; /* Синий фон */
+  color: white; /* Белый текст */
+  border-radius: 5px;
+}
+
+
+
+
+
 
 
 .App {

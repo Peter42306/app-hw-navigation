@@ -30,7 +30,7 @@ const MainPageFromTask3 = () => {
                 </li> */}
             </ul>
         </nav>
-        <hr></hr>
+        
         <Outlet/>
         <hr></hr>
         </>

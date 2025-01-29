@@ -1,45 +1,32 @@
-.div{
-  background-color: aquamarine;
+.card-img-custom {
+  height: fit-content;
+  width: 100px;
 }
 
-/* Стили для навигационного меню */
-nav {
-  background-color: #f8f9fa; /* Светлый фон для меню */
-  padding: 10px 20px;
-  border-radius: 8px; /* Скругленные углы */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Легкая тень */
+.footer{
+  background-color: aquamarine;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
 }
+
 
 /* Убираем стандартные стили списка */
 nav ul {
   list-style: none;
-  padding: 0;
+  /* padding: 0;
   margin: 0;
-  display: flex; /* Горизонтальное выравнивание */
-  gap: 15px; /* Расстояние между элементами */
+  display: flex; 
+  gap: 15px; */
 }
 
-/* Стили для ссылок */
-nav a {
-  text-decoration: none;
-  color: #333; /* Темный цвет текста */
-  font-size: 16px;
-  padding: 5px 10px; /* Внутренние отступы для кликабельной области */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход эффектов */
+.card-body-custom .card-text{
+  margin-bottom: 5px;
 }
 
-/* Ховер эффект */
-nav a:hover {
-  background-color: #e2e6ea; /* Светло-серый фон */
-  border-radius: 5px; /* Скругление фона */
-}
-
-/* Активная ссылка */
-nav a.active {
-  background-color: #007bff; /* Синий фон */
-  color: white; /* Белый текст */
-  border-radius: 5px;
-}
 
 
 

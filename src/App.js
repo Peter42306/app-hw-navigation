@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+//import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import { Home, About, NotFound } from './components/Task1';
 import MainPageFromTask2 from './components/Task2';
 import MainPageFromTask3 from './components/Task3';
@@ -29,7 +30,9 @@ function App() {
     setSelectedVessel(selectedVessel);
   }
   return (
-    <BrowserRouter>
+
+    // <BrowserRouter> -> <Router>
+    <Router>
     <Container>
 
       {/* Primitive header */}
@@ -122,7 +125,7 @@ function App() {
 
       
       </Container>
-    </BrowserRouter>
+    </Router>
 
   );
 }

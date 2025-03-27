@@ -2,6 +2,7 @@
   "name": "app-hw-navigation",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/react-projects/6-navigation-vessels",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
